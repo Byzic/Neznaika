@@ -1,7 +1,7 @@
+
 package Nature;
 
 import Interfaces.*;
-
 public class Sun implements ConditionChecker, StatusSetter {
     private boolean sunset = true;
     @Override

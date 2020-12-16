@@ -6,6 +6,12 @@ public class Balloon implements ConditionChecker,StatusSetter {
     private boolean cooldown = false;
     private int height=30;
     private int temperature=15;
+    public int getTemperature(){
+        return temperature;
+    }
+    public int getHeight(){
+        return height;
+    }
     public int goDown(){
         System.out.println(getName()+" стал спускаться вниз");
         return height-5;

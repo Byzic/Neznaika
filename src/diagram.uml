@@ -3,74 +3,74 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="234.5">Nature.Wind</node>
-    <node x="0.0" y="727.0">Persons.Grumbler</node>
-    <node x="287.0333333333333" y="0.0">Interfaces.StatusSetter</node>
-    <node x="83.9" y="0.0">Interfaces.ConditionChecker</node>
-    <node x="112.0" y="511.0">Persons.Person</node>
-    <node x="433.0" y="511.0">Nature.TimeOfDay</node>
-    <node x="180.0" y="146.0">Places.Balloon</node>
-    <node x="372.0" y="234.5">Nature.Sun</node>
-    <node x="290.0" y="749.5">Persons.Znaika</node>
-    <node x="669.0" y="511.0">Main</node>
-    <node x="158.0" y="749.5">Persons.Neznaika</node>
+    <node x="250.0" y="737.0">Persons.Grumbler</node>
+    <node x="180.0" y="244.5">Nature.Wind</node>
+    <node x="280.1333333333333" y="0.0">Interfaces.StatusSetter</node>
+    <node x="79.0" y="521.0">Persons.Person</node>
+    <node x="77.89999999999998" y="0.0">Interfaces.ConditionChecker</node>
+    <node x="433.0" y="521.0">Nature.TimeOfDay</node>
+    <node x="360.0" y="156.0">Places.Balloon</node>
+    <node x="0.0" y="244.5">Nature.Sun</node>
+    <node x="132.0" y="759.5">Persons.Znaika</node>
+    <node x="669.0" y="521.0">Main</node>
+    <node x="0.0" y="759.5">Persons.Neznaika</node>
   </nodes>
   <notes />
   <edges>
     <edge source="Nature.Sun" target="Interfaces.StatusSetter">
       <point x="40.0" y="-71.5" />
-      <point x="492.0" y="96.0" />
-      <point x="407.0333333333333" y="96.0" />
-      <point x="48.0" y="38.0" />
+      <point x="120.0" y="126.0" />
+      <point x="304.1333333333333" y="126.0" />
+      <point x="-48.0" y="38.0" />
     </edge>
     <edge source="Nature.Sun" target="Interfaces.ConditionChecker">
       <point x="-40.0" y="-71.5" />
-      <point x="412.0" y="106.0" />
-      <point x="230.56666666666666" y="106.0" />
-      <point x="58.66666666666666" y="38.0" />
+      <point x="40.0" y="136.0" />
+      <point x="107.23333333333329" y="136.0" />
+      <point x="-58.666666666666686" y="38.0" />
     </edge>
     <edge source="Persons.Neznaika" target="Persons.Person">
       <point x="0.0" y="-27.0" />
-      <point x="0.0" y="83.0" />
-    </edge>
-    <edge source="Nature.Wind" target="Interfaces.ConditionChecker">
-      <point x="-40.0" y="-71.5" />
-      <point x="40.0" y="126.0" />
-      <point x="113.23333333333335" y="126.0" />
-      <point x="-58.66666666666666" y="38.0" />
+      <point x="56.0" y="712.0" />
+      <point x="113.0" y="712.0" />
+      <point x="-68.0" y="83.0" />
     </edge>
     <edge source="Nature.Wind" target="Interfaces.StatusSetter">
       <point x="40.0" y="-71.5" />
-      <point x="120.0" y="116.0" />
-      <point x="311.0333333333333" y="116.0" />
-      <point x="-48.0" y="38.0" />
+      <point x="300.0" y="136.0" />
+      <point x="352.1333333333333" y="136.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Nature.Wind" target="Interfaces.ConditionChecker">
+      <point x="-40.0" y="-71.5" />
+      <point x="220.0" y="116.0" />
+      <point x="165.89999999999998" y="116.0" />
+      <point x="0.0" y="38.0" />
     </edge>
     <edge source="Places.Balloon" target="Interfaces.StatusSetter">
       <point x="43.0" y="-160.0" />
-      <point x="309.0" y="126.0" />
-      <point x="359.0333333333333" y="126.0" />
-      <point x="0.0" y="38.0" />
+      <point x="489.0" y="96.0" />
+      <point x="400.1333333333333" y="96.0" />
+      <point x="48.0" y="38.0" />
     </edge>
     <edge source="Places.Balloon" target="Interfaces.ConditionChecker">
       <point x="-43.0" y="-160.0" />
-      <point x="223.0" y="106.0" />
-      <point x="171.9" y="106.0" />
-      <point x="0.0" y="38.0" />
+      <point x="403.0" y="106.0" />
+      <point x="224.5666666666666" y="106.0" />
+      <point x="58.66666666666663" y="38.0" />
     </edge>
     <edge source="Persons.Znaika" target="Persons.Person">
       <point x="0.0" y="-27.0" />
-      <point x="339.0" y="702.0" />
-      <point x="282.0" y="702.0" />
-      <point x="68.0" y="83.0" />
+      <point x="0.0" y="83.0" />
     </edge>
     <edge source="Persons.Grumbler" target="Persons.Person">
       <point x="0.0" y="-49.5" />
-      <point x="69.0" y="702.0" />
-      <point x="146.0" y="702.0" />
-      <point x="-68.0" y="83.0" />
+      <point x="319.0" y="712.0" />
+      <point x="249.0" y="712.0" />
+      <point x="68.0" y="83.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="403.2222222222225" y="461.16666666666663" />
+  <settings layout="Hierarchic Group" zoom="0.8" x="643.3333333333333" y="452.95833333333337" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
